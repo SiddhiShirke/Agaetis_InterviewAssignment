@@ -76,7 +76,7 @@ exports.updateEmployees = async (req, res) => {
 };
 
 
-// DELETE EMPLOYEE
+
 exports.deleteEmployees = async (req, res) => {
     try {
         const { id } = req.params;
